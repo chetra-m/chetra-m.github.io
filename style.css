@@ -1,0 +1,172 @@
+#border-header {
+    border:solid;
+    padding: 40px; 
+    margin: 40px;
+}
+#header-group{
+    border: solid;
+    border-color: red;
+    font-style: italic;
+        }
+#span-text { 
+    color: blue;
+    font-weight: 100px;
+
+    }
+    #art {
+	    display: table;
+	    border-spacing: 1px;
+    	background-color: black;
+    	border: 5px solid black;
+  }
+  
+  .row {
+	  display: table-row;
+	}
+	
+  .pixel {
+    display: table-cell;
+    background-color: white;
+    width: 30px;
+		height: 30px;
+	}
+	
+	.pen {
+	  display: inline-block;
+	  width: 40px;
+		height: 40px;
+		border: 2px solid black;
+  }
+  
+  .menu {
+    margin: 10px;
+    font-family: fantasy;
+    filter: grayscale(0);
+     transition: 1s;
+    }
+      
+      
+  .menu:hover{ 
+    filter: grayscale(0);
+    transform: scale(1.1);}
+  .menu:hover 
+ 
+  .content {
+    overflow: auto;
+  }
+  .content-img {
+    width: 224px;
+    float: left;
+  }
+  .content-text {
+    display: inline;
+    margin-left: 20px;
+  }
+	.wrapper{
+    display:grid;
+    /* grid-template-columns:1fr 1fr 1fr;*/
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:1em;
+    /* grid-auto-rows:100px; */
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .nested{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-auto-rows: 70px;
+    grid-gap:1em;
+  }
+
+  .wrapper > div{
+    background:#eee;
+    padding:1em;
+  }
+  .wrapper > div:nth-child(odd){
+    background:#ddd;
+  }
+  .wrapper { 
+   font-size: 16px;
+  line-height: 26px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+    
+  }
+
+    
+  
+
+  .nested > div{
+    border:#333 1px solid;
+    padding:1em;
+  }
+  body {font-family: sans-serif;
+  }
+  h1 {text-align: center;
+    margin:30px 0 50px;}
+  .gallery {
+    margin:10px 50px;
+      }
+
+  .gallery img{
+    width: 230px;
+    padding:5px;
+    filter: grayscale(100%);
+    transition: 1s;
+  }
+	.gallery img:hover{ 
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  .gallery img:hover{ 
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  .tex { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .header{ width:1100px; height:350px; margin: auto;}
+  .img-content { 
+    width: 80px; 
+    margin:10%;
+      }
+  .img-content img{ 
+    width: 100%;
+    
+  }
+  .text-content { 
+    width: 100%;
+    position: relative;
+    margin-top: -10%;
+  }
+  .text-content h1{ 
+    text-align: left ;
+    color: #ffffff;
+    font-size: 4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .text-content h2{ 
+        text-align: left;
+        color: #ffffff;
+        font-size: 2vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+      }
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  
+    
+  
